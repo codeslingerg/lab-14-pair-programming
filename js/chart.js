@@ -22,13 +22,14 @@ function renderChart() {
   app.loadItems();
 }
 let chart = new Chart(votectx, {
-  type: "doughnut",
+  type: "pie",
   data: {
     labels: days,
+
     datasets: [
       {
         label: "Vote Data",
-        data: [1, 4, 5],
+        data: [4, 2, 3],
       },
     ],
   },
