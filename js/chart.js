@@ -25,7 +25,6 @@ let chart = new Chart(votectx, {
   type: "pie",
   data: {
     labels: days,
-
     datasets: [
       {
         label: "Vote Data",
