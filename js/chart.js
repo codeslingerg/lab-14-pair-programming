@@ -30,6 +30,11 @@ let chart = new Chart(votectx, {
       {
         label: "Vote Data",
         data: [4, 2, 3],
+        backgroundColor: [
+          "rgb(0, 99, 132)",
+          "rgb(54, 5, 235)",
+          "rgb(255, 73, 86)",
+        ],
       },
     ],
   },
